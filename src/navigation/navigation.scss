@@ -1,0 +1,26 @@
+.mobile-nav {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	
+}
+
+.navbar-custom {
+	background: rgb(10,4,44);
+background: linear-gradient(90deg, rgba(10,4,44,100) 0%, rgba(10,4,44,1) 22%, rgba(10,4,44,0) 51%, rgba(10,4,44,0) 100%);
+}
+
+#brand-img{
+	height: 40px;
+	width: 40px;
+}
+
+.nav-link:hover{
+	background-color: rgba(53, 46, 112, 0.384);
+	border-radius: 5px;
+}
+
+.icon-color{
+	color: rgb(176, 46, 228);
+}

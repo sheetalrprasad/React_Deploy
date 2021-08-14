@@ -1,4 +1,4 @@
-// import { NavigationBar } from '../navigation';
+import { NavigationBar } from '../navigation';
 // import { Home } from '../home';
 // import { AboutMe } from '../about-me';
 // import { Skills } from '../skills';
@@ -9,7 +9,7 @@ import './portfolio-page.scss';
 const PortfolioPage = () => {
     return (
         <div>
-            {/* <NavigationBar/> */}
+            <NavigationBar/>
             <p className="underConstruction">Under Construction...</p>
             {/* <div className="wrapper parent">
                 <div id="#home"><Home /></div> 

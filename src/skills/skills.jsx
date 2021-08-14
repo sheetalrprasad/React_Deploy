@@ -22,19 +22,19 @@ const Skills = () =>{
                     <table className="techBox1">
                         <tbody>
                             <tr> 
-                                <td><img id="techImg" src={python} /><br />Python</td>
-                                <td><img id="techImg" src={go} /><br/> Go </td>
-                                <td><img id="techImg" src={java} /> <br />Java</td>
+                                <td><img id="techImg" src={python} alt="python" /><br />Python</td>
+                                <td><img id="techImg" src={go} alt="golang" /><br/> Go </td>
+                                <td><img id="techImg" src={java} alt="java" /> <br />Java</td>
                             </tr>
                             <tr> 
-                                <td><img id="techImg" src={git} /><br /> Git</td>
-                                <td><img id="techImg" src={api} /><br />Microservices</td>
-                                <td><img id="techImg" src={react} /><br />React</td>
+                                <td><img id="techImg" src={git} alt="git" /><br /> Git</td>
+                                <td><img id="techImg" src={api} alt="rest api" /><br />Microservices</td>
+                                <td><img id="techImg" src={react} alt="reactJS" /><br />React</td>
                             </tr>
                             <tr> 
-                                <td><img id="techImg" src={cassandra} /><br />Cassandra DB</td>
-                                <td><img id="techImg" src={mongo} /><br />MongoDB </td>
-                                <td><img id="techImg" src={postgres} /><br />PostgreSQL</td>
+                                <td><img id="techImg" src={cassandra} alt="cassandra" /><br />Cassandra DB</td>
+                                <td><img id="techImg" src={mongo} alt="mongoDB" /><br />MongoDB </td>
+                                <td><img id="techImg" src={postgres} alt="postgresql" /><br />PostgreSQL</td>
                             </tr>
                         </tbody>
                     </table>

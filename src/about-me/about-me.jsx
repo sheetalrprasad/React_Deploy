@@ -9,16 +9,13 @@ const AboutMe = () =>{
             <h2 id="heading">About me </h2>
             <div className="about-me-web">
                 <div id="imageSelf">
-                    <img src={me} id="sheetal"/>
+                    <img src={me} alt="sheetal" id="sheetal"/>
                 </div>
                 <div id="descriptionSelf">
                     <h2 id="professionalTitle">{data.professionalTitle}</h2>
-                    <p id="jobDescription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque saepe expedita recusandae, possimus consequuntur assumenda omnis ipsum soluta, sapiente quidem, et dolorem?
-                        Modi eum repellendus perspiciatis totam corrupti? Autem!<br/><br/>
-                    {/* <p id="jobDescription">{data.jobDescription1}
+                    <p id="jobDescription">{data.jobDescription1}
                     <br />{data.jobDescription2}
-                    <br /><i>"Passionately curious"</i> - that's how I'll describe myself.<br /> */}
-                    <i>"Passionately curious"</i>
+                    <br /><i>"Passionately curious"</i> - that's how I'll describe myself.<br />
                     <br/>
                     <br />
                     <a id="downloadButton" href={doc} download="CV_Sheetal_R_Prasad">

@@ -29,7 +29,7 @@ const MyProjects = () => {
                                 </p>
                             </div>
                             <div className="card-footer text-muted">
-                                <a href="https://github.com/sheetalrprasad/twitterAnalysis" target="_blank" className="fa fa-github btn btn-primary"></a>
+                                <a href="https://github.com/sheetalrprasad/twitterAnalysis" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                             </div>
                         </div>
                 </Carousel.Item>
@@ -45,7 +45,7 @@ const MyProjects = () => {
                             </p>
                         </div>
                         <div className="card-footer text-muted">
-                            <a href="https://github.com/sheetalrprasad/Netflix_Show_Recommendation" target="_blank" className="fa fa-github btn btn-primary"></a>
+                            <a href="https://github.com/sheetalrprasad/Netflix_Show_Recommendation" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                         </div>
                     </div>
                 </Carousel.Item>
@@ -61,12 +61,12 @@ const MyProjects = () => {
                             </p>
                         </div>
                         <div className="card-footer text-muted">
-                            <a href="https://github.com/sheetalrprasad/Data-Visualization" target="_blank" className="btn btn-primary fa fa-github"></a>
+                            <a href="https://github.com/sheetalrprasad/Data-Visualization" target="_blank" rel="noreferrer" className="btn btn-primary fa fa-github"></a>
                         </div>
                     </div>
                 </Carousel.Item>
             </Carousel>
-                <a id="more-projects" href="https://github.com/sheetalrprasad" target="_blank" className="btn btn-primary"> More Projects</a>
+                <a id="more-projects" href="https://github.com/sheetalrprasad" target="_blank" rel="noreferrer" className="btn btn-primary"> More Projects</a>
             </div>
 
             <div className="project-table">
@@ -75,33 +75,33 @@ const MyProjects = () => {
                         <td>
                             <h5>Sentiment Analysis</h5>
                             <p>Using Natural Language Processing technique determining whether data is positive, negative or neutral. </p>
-                            <a href="https://github.com/sheetalrprasad/twitterAnalysis" target="_blank" className="fa fa-github btn btn-primary"></a>
+                            <a href="https://github.com/sheetalrprasad/twitterAnalysis" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                         </td>
                     </tr>
                     <tr className="with-border">
                         <td>
                         <h5>Recommendation System</h5>
                             <p>Developed using Python, Django and sci-kit learn to recommend show based on show's user rating. </p>
-                            <a href="https://github.com/sheetalrprasad/Netflix_Show_Recommendation" target="_blank" className="fa fa-github btn btn-primary"></a>
+                            <a href="https://github.com/sheetalrprasad/Netflix_Show_Recommendation" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                         </td>
                     </tr>
                     <tr className="with-border">
                         <td>
                         <h5>Web Mapping</h5>
                             <p>Mapping of all volcanoes location on world map. Used Python, Folium, Pandas. </p>
-                            <a href="https://github.com/sheetalrprasad/webmapping" target="_blank" className="fa fa-github btn btn-primary"></a>
+                            <a href="https://github.com/sheetalrprasad/webmapping" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                         </td>
                     </tr>
                     <tr className="with-border">
                         <td>
                         <h5>Data Visualization</h5>
                             <p>COVID-19 Spread around the world. Geo Mapping using Python. </p>
-                            <a href="https://github.com/sheetalrprasad/Data-Visualization" target="_blank" className="fa fa-github btn btn-primary"></a>
+                            <a href="https://github.com/sheetalrprasad/Data-Visualization" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                        <a id="more-projects-table" href="https://github.com/sheetalrprasad" target="_blank" className="btn btn-primary"> More Projects</a> 
+                        <a id="more-projects-table" href="https://github.com/sheetalrprasad" target="_blank" rel="noreferrer" className="btn btn-primary"> More Projects</a> 
                         </td>
                     </tr>
                 </table>

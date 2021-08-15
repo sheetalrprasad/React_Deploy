@@ -5,24 +5,58 @@ import { Skills } from '../skills';
 import { MyProjects } from '../my-projects';
 import { ContactMe } from '../contact-me';
 import './portfolio-page.scss';
+import { useState } from 'react';
+import { useCallback } from 'react';
 
 const PortfolioPage = () => {
+    const [home, setHome] = useState(true);
+    const [about, setAbout] = useState(false);
+    const [skills, setSkills] = useState(false);
+    const [projects, setProjects] = useState(false);
+    const [contact, setContact] = useState(false);
+
+    const onClickHandle = useCallback(section => {
+        
+        setHome(false);
+        setAbout(false);
+        setSkills(false);
+        setProjects(false);
+        setContact(false);
+        
+        console.log("section ", section);
+
+        switch (section) {
+            case 'home':
+                setHome(true);
+                break;
+            case 'about':
+                setAbout(true);
+                break;
+            case 'skills':
+                setSkills(true);
+                break;
+            case 'projects':
+                setProjects(true);
+                break;
+            case 'contact':
+                setContact(true);
+                break;
+            default:
+                setHome(true);
+        }
+    });
+
     return (
-        <div>
-            <NavigationBar/>
-            <p className="underConstruction">Under Construction...</p>
-            <div className="wrapper parent">
-                <div id="#home"><Home /></div> 
-                    <div className="scroll-bg bg-1 child">
-                        <div id="about"><AboutMe /> </div>
-                        <div className="bg-2">
-                            <div id="skills"> <Skills /> </div>
-                            <div id="projects" > <MyProjects /></div>
-                            <div id="contact" > <ContactMe /></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div className="main-content">
+            
+            { home ? <div id="#"> <Home /> </div> : <></> }
+            { about ? <div id="about"> <AboutMe /> </div> : <></> }
+            { skills ? <div id="skills"> <Skills /> </div> : <></> }
+            { projects ? <div id="projects" > <MyProjects /> </div> : <></> }
+            { contact ? <div id="contact" > <ContactMe /> </div> : <></> }
+            
+            <NavigationBar onClickHandle={onClickHandle} />
+        </div>
     );
 };
 

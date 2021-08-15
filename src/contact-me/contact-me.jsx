@@ -27,18 +27,20 @@ const ContactMe = () =>{
                 <br/>
 
                 <h6>
-                <i class="fa fa-handshake-o" aria-hidden="true"></i> Social
+                <i className="fa fa-handshake-o" aria-hidden="true"></i> Social
                 </h6>
 
                 <table> 
-                    <tr>
+                    <tbody>
+                        <tr>
+                            <td className="social-icon">
+                                <a href="https://www.linkedin.com/in/sheetalrprasad/" target="_blank"  rel="noreferrer" className="fa fa-linkedin btn btn-primary"></a>
+                            </td>
                         <td className="social-icon">
-                            <a href="https://www.linkedin.com/in/sheetalrprasad/" target="_blank"  rel="noreferrer" className="fa fa-linkedin btn btn-primary"></a>
+                            <a href="https://github.com/sheetalrprasad" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
                         </td>
-                    <td className="social-icon">
-                        <a href="https://github.com/sheetalrprasad" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
-                    </td>
-                    </tr>
+                        </tr>
+                    </tbody>
                 </table>
             </span>
             

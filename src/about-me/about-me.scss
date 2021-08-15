@@ -1,51 +1,35 @@
-.about-me-web{
-    color: #181817;
-    display: flex;
-    flex-wrap: wrap;
+.about-me{
+    border: blanchedalmond solid 2px;
+    background-color: rgb(105, 71, 71);
+    width: 60%;
+    height:70%;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
-.about-me-web>* {
-    flex: 1 1 160px;
+.content-title{
+    color: bisque;
 }
 
-#heading{
-    text-shadow: rgba(136, 70, 223, 0.616) 2px 1px;
-}
-
-.about-me-outer{
-    padding-top: 8%;
-    padding-left: 5%;
-    z-index: 2;
-}
-
-#imageSelf{
-    flex-grow: 1;
-    padding-left: 6%;
-    padding-top: 2%;
-    z-index: 3;
-}
-
-#descriptionSelf{
-    flex-grow: 4;
-    padding-top: 10%;
-    padding-right: 2%;
-    padding-bottom: 12%;
-    align-items: center;
- 
-}
-
-#professionalTitle{
-    text-align: center;
-}
-
-#jobDescription{
-    text-align: center;
-    font-weight: bold;
-}
-
-
-#sheetal{
-    height: 230px;
-    width: 230px;
+.about-me > .content > .imageSelf{
+    background-image: url('../static/me.jfif');
+    background-size: cover;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
+    margin-left: 2%;
+}
+
+.content{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content{
+    padding-top: 0%;
+    margin-right: 2%;
 }

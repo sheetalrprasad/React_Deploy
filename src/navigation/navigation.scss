@@ -6,10 +6,10 @@
 	
 }
 
-.navbar-custom {
-	background: rgb(10,4,44);
-background: linear-gradient(90deg, rgba(10,4,44,100) 0%, rgba(10,4,44,1) 22%, rgba(10,4,44,0) 51%, rgba(10,4,44,0) 100%);
-}
+// .navbar-custom {
+// 	background: rgb(10,4,44);
+// background: linear-gradient(90deg, rgba(10,4,44,100) 0%, rgba(10,4,44,1) 22%, rgba(10,4,44,0) 51%, rgba(10,4,44,0) 100%);
+// }
 
 #brand-img{
 	height: 40px;
@@ -24,4 +24,8 @@ background: linear-gradient(90deg, rgba(10,4,44,100) 0%, rgba(10,4,44,1) 22%, rg
 
 .icon-color{
 	color: rgb(176, 46, 228);
+}
+
+.navbar-custom{
+	bottom:0;
 }

@@ -1,4 +1,22 @@
-#introduction{
-    padding-top: 5%;
-    padding-bottom: 12%;
+.introduction{
+    border: blanchedalmond solid 2px;
+    background-color: rgb(105, 71, 71);
+    // background-image: url('../static/vanesa-papucikova-ZnpH_kiZFDI-unsplash.jpg');
+    // background-position: center;
+    // background-size: cover;
+    width: 60%;
+    height:70%;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.introduction > .intro-text{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

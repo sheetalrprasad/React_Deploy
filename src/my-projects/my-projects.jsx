@@ -71,39 +71,37 @@ const MyProjects = () => {
 
             <div className="project-table">
                 <table>
-                    <tr className="with-border">
-                        <td>
-                            <h5>Sentiment Analysis</h5>
-                            <p>Using Natural Language Processing technique determining whether data is positive, negative or neutral. </p>
-                            <a href="https://github.com/sheetalrprasad/twitterAnalysis" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
-                        </td>
-                    </tr>
-                    <tr className="with-border">
-                        <td>
-                        <h5>Recommendation System</h5>
-                            <p>Developed using Python, Django and sci-kit learn to recommend show based on show's user rating. </p>
-                            <a href="https://github.com/sheetalrprasad/Netflix_Show_Recommendation" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
-                        </td>
-                    </tr>
-                    <tr className="with-border">
-                        <td>
-                        <h5>Web Mapping</h5>
-                            <p>Mapping of all volcanoes location on world map. Used Python, Folium, Pandas. </p>
-                            <a href="https://github.com/sheetalrprasad/webmapping" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
-                        </td>
-                    </tr>
-                    <tr className="with-border">
-                        <td>
-                        <h5>Data Visualization</h5>
-                            <p>COVID-19 Spread around the world. Geo Mapping using Python. </p>
-                            <a href="https://github.com/sheetalrprasad/Data-Visualization" target="_blank" rel="noreferrer" className="fa fa-github btn btn-primary"></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        <a id="more-projects-table" href="https://github.com/sheetalrprasad" target="_blank" rel="noreferrer" className="btn btn-primary"> More Projects</a> 
-                        </td>
-                    </tr>
+                    <tbody>
+                        <tr className="with-border">
+                            <td>
+                                <h5><a href="https://github.com/sheetalrprasad/twitterAnalysis" target="_blank" rel="noreferrer"> Sentiment Analysis</a></h5>
+                                <p>Using Natural Language Processing technique determining whether data is positive, negative or neutral. </p>
+                            </td>
+                        </tr>
+                        <tr className="with-border">
+                            <td>
+                            <h5><a href="https://github.com/sheetalrprasad/Netflix_Show_Recommendation" target="_blank" rel="noreferrer">Recommendation System</a></h5>
+                                <p>Developed using Python, Django and sci-kit learn to recommend show based on show's user rating. </p>
+                            </td>
+                        </tr>
+                        <tr className="with-border">
+                            <td>
+                            <h5><a href="https://github.com/sheetalrprasad/webmapping" target="_blank" rel="noreferrer">Web Mapping</a></h5>
+                                <p>Mapping of all volcanoes location on world map. Used Python, Folium, Pandas. </p>
+                            </td>
+                        </tr>
+                        <tr className="with-border">
+                            <td>
+                            <h5><a href="https://github.com/sheetalrprasad/Data-Visualization" target="_blank" rel="noreferrer"> Data Visualization </a></h5>
+                                <p>COVID-19 Spread around the world. Geo Mapping using Python. </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <a id="more-projects-table" href="https://github.com/sheetalrprasad" target="_blank" rel="noreferrer" className="btn btn-primary"> More Projects</a> 
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

@@ -5,13 +5,15 @@ import data from '../static/text-data/english.json';
 
 const AboutMe = () =>{
     return (
-        <div className="about-me-outer">
-            <h2 id="heading">About me </h2>
-            <div className="about-me-web">
-                <div id="imageSelf">
-                    <img src={me} alt="sheetal" id="sheetal"/>
+        <div className="about-me">
+            <div className="content-title">
+                <h2 id="heading">About me</h2>
+            </div>
+            <div className="content">
+                <div className="imageSelf">
+                    {/* <img src={me} alt="sheetal" id="sheetal"/> */}
                 </div>
-                <div id="descriptionSelf">
+                <div className="text-content">
                     <h2 id="professionalTitle">{data.professionalTitle}</h2>
                     <p id="jobDescription">{data.jobDescription1}
                     <br />{data.jobDescription2}
